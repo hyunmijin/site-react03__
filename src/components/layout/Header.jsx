@@ -16,9 +16,9 @@ const Header = (props) => {
             <li>
               <Link to="/intro">소개</Link>
             </li>
-            <li>
+            {/* <li>
               <Link to="/member">작가소개</Link>
-            </li>
+            </li> */}
             <li>
               <Link to="/port">포트폴리오</Link>
             </li>
