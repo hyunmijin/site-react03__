@@ -1,0 +1,120 @@
+//movie__wrap
+.movie__wrap {
+  overflow: hidden;
+}
+.movie__inner {
+  height: 750px;
+  h3 {
+    font-size: 50px;
+    margin-bottom: 20px;
+  }
+  p {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  a {
+    border-radius: 50px;
+    margin-bottom: 100px;
+  }
+}
+.movie__item {
+  display: flex;
+  // width: 100%;
+  position: absolute;
+  > div {
+    margin-right: 20px;
+    width: 400px;
+    // background-color: #ccc;
+
+    img {
+      width: 80%;
+      border-radius: 5%;
+      height: 500px;
+      object-fit: cover;
+    }
+  }
+}
+.movie__search {
+  display: none;
+  text-align: center;
+  margin-bottom: 50px;
+
+  input {
+    border: 1px solid #e8ecf2;
+    font-size: 16px;
+    padding: 10px 20px;
+    @include border(50px);
+    min-width: 500px;
+    margin-right: 10px;
+  }
+  button {
+    @include button(#b43e3e, #ffffff);
+    @include border(50px);
+  }
+}
+
+.movie__cont {
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    li {
+      width: 32.333%;
+      position: relative;
+      margin-bottom: 2%;
+
+      .title {
+        font-size: 20px;
+        padding: 3px 0;
+        display: inline-block;
+
+        &:hover {
+          text-decoration: underline;
+          text-underline-position: under;
+        }
+      }
+      .star {
+        position: absolute;
+        right: 20px;
+        top: 20px;
+        width: 30px;
+        height: 30px;
+        background-color: #fff;
+        text-align: center;
+        line-height: 30px;
+        border-radius: 50%;
+        font-size: 12px;
+      }
+    }
+  }
+}
+
+.movie__tag {
+  ul {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+
+    li {
+      a {
+        display: inline-block;
+        border: 1px solid #b43e3e;
+        padding: 10px 20px;
+        margin: 0 10px;
+        color: #b43e3e;
+        cursor: pointer;
+
+        &:hover {
+          background-color: #b43e3e;
+          color: #fff;
+        }
+      }
+    }
+    li.active a {
+      background-color: #b43e3e;
+      color: #fff;
+    }
+  }
+}
