@@ -18,5 +18,5 @@
       <li>Fetch API: 웹 브라우저에서 제공하는 비동기 네트워크 요청을 위한 API입니다. 서버와 데이터를 주고받는데 사용됩니다. 이 코드에서는 YouTube API를 호출하는 데에 사용됩니다.</li>
   <li>React Hooks: 함수형 컴포넌트에서 상태(State)와 생명주기 기능을 사용하기 위한 React의 기능입니다. useState와 useEffect가 이 코드에서 사용된 예시입니다.</li>
     <li>JSX: JavaScript의 확장 문법으로, React 컴포넌트의 UI를 작성하기 위해 사용됩니다. JavaScript 코드 내에서 HTML과 유사한 구문을 작성할 수 있게 해줍니다.</li>
-      <li>Git: 버전 관리 시스템으로, 코드의 변경 이력을 추적하고 협업을 위해 사용됩니다.</li>
+      <li>Git: 파일을 관리합니다.</li>
 </ul>
